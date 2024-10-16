@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E2AFC0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu App de Viajes"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:id="@+id/tv_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Hola, estamos buscando a millones de usuarios con inquietudes y ganas de viajar. Si eres tu?No lo dudes accede a nuestra app y descubriras millones de destinos y facilidades para alquilar coches, ver el tiempo..."
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/ivmoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/moto" />
+
+</LinearLayout>
